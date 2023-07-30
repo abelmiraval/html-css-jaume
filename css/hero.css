@@ -26,3 +26,26 @@
   font: var(--headline5);
   display: block;
 }
+
+@media screen and (min-width: 768px){
+  .hero {
+    border: 1px solid red;
+    display: flex;
+    gap: 32px;
+  }
+  .hero-description{
+    order: 1;
+  }
+  .hero-image {
+    order: 2;
+    text-align: end;
+    border: 1px solid blue
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .hero-image img{
+    inline-size: 500px;
+    block-size: 504px;
+  }
+}

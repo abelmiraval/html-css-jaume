@@ -3,6 +3,7 @@
 @import "./header.css";
 @import "./hero.css";
 @import "./wrapper.css";
+@import "./menu.css";
 
 
 :root {
@@ -12,10 +13,10 @@
   --headline3: bold 48px/77px var(--fontBase);
   --headline4: bold 34px/55px var(--fontBase);
   --headline5: bold 24px/38px var(--fontBase);
-  --body1: 16px/25px var(var(--fontBase));
-  --body2: 24px/22px var(var(--fontBase));
+  --body1: 16px/25px var(--fontBase);
+  --body2: 24px/22px var(--fontBase);
   --button: bold 14px/22px var(--fontBase);
-  --caption: 12px/19px var(var(--fontBase));
+  --caption: 12px/19px var(--fontBase);
   --gradient: radial-gradient(
       41.85% 33.13% at 2.38% 8.52%,
       #747de9 0%,
@@ -33,4 +34,5 @@ body {
   font: var(--body1);
   color: var(--purple);
   margin: 0;
+  scroll-behavior: smooth
 }
