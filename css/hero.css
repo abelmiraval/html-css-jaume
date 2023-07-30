@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+.hero-image img{
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 .hero h1 {
   font: var(--headline3);
   margin: 0;
@@ -29,7 +34,6 @@
 
 @media screen and (min-width: 768px){
   .hero {
-    border: 1px solid red;
     display: flex;
     gap: 32px;
   }
@@ -39,7 +43,6 @@
   .hero-image {
     order: 2;
     text-align: end;
-    border: 1px solid blue
   }
 }
 
