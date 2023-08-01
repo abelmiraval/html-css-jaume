@@ -4,12 +4,11 @@
 @import "./hero.css";
 @import "./wrapper.css";
 @import "./menu.css";
-@import "./testimony.css";
+@import "./project.css";
 @import "./social.css";
 @import "./footer.css";
 @import "./form.css";
 @import "./title.css";
-
 
 
 :root {
@@ -20,7 +19,7 @@
   --headline4: bold 34px/55px var(--fontBase);
   --headline5: bold 24px/38px var(--fontBase);
   --body1: 16px/25px var(--fontBase);
-  --body2: 24px/22px var(--fontBase);
+  --body2: 14px/22px var(--fontBase);
   --button: bold 14px/22px var(--fontBase);
   --caption: 12px/19px var(--fontBase);
   --gradient: radial-gradient(
@@ -42,3 +41,6 @@ body {
   margin: 0;
   scroll-behavior: smooth
 }
+
+
+

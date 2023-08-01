@@ -33,13 +33,18 @@
     display: flex;
     gap: 32px;
   }
-  .hero-description{
+  .hero-description {
     order: 1;
+    max-inline-size: 450px;
   }
   .hero-image {
     order: 2;
     text-align: end;
+    flex: 1;
   }
+
+
+
 }
 
 @media screen and (min-width: 1024px){
